@@ -1,0 +1,22 @@
+.set_table{
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  align-items: center;
+  width: 100%;
+  border: 1px solid rgb(87, 212, 234);
+  background-color: rgb(203, 255, 255);
+  box-shadow: 5px 5px 20px 0px rgba(8, 108, 133, 0.5);
+  /* border-collapse: collapse; */
+}
+.set_table td{
+  border: 1px solid rgb(87, 212, 234);
+  font-size: 15px;
+  text-align: center;
+}
+.set_table th{
+  border: 1px solid rgb(252, 140, 140);
+  font-size: 15px;
+  text-align: center;
+}

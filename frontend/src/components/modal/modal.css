@@ -1,0 +1,63 @@
+.searchbox{
+  padding: 5px;
+  display: flex;
+}
+.displaybox{
+  justify-content: flex-end;
+}
+.display{
+  /* margin-left: 400px; */
+  margin-left: 750px;
+  width:  10px;
+  background-color: rgb(181, 175, 2);
+}
+.boxpart{
+  display: flex;
+  flex-direction: row;
+}
+.showpart{
+  border: 1px solid black;
+  /* background-color: red; */
+  flex: 0 0 70%;
+  height: 300px;
+}
+.numpad{
+  flex: 0 0 30%;
+  height: 300px;
+  flex-direction: column;
+  display: block;
+}
+.row{
+  margin-left: 5px;
+  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+}
+button{
+  width: 100px;
+  height: 75px;
+  flex: 1 1 auto;
+  font-size: 2rem;
+  padding: 2px;
+}
+.record{
+  height: 60px;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+.ant-modal-footer{
+  display: none;
+}
+.buttonA{
+  padding-left: 10px;
+}
+.save{
+  margin: 5px;
+  margin-left: 900px;
+}
+td{
+  border: 1px solid black;
+}
+th{
+  border: 1px solid black;
+}
